@@ -1,5 +1,6 @@
 // En este JS se trae el compara el correo de la BD con el correo 
-// ingresado por el usuario al olvidar la contraseña 
+// ingresado por el usuario al olvidar la contraseña y compara ambos correos, 
+// si estos correos son iguales entonces envia la contraseña al correo electronico del cliente
 
 import GetUsers from "./GetUsers";
 import SendEmail from "./SendEmail";
